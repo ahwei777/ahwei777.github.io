@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class = 'debug'>
+    <!--    左右側換頁區域  -->
+    <div class = 'arrowArea'>
+        <div class = 'arrowArea-left isLeft'>
+            <div class ='arrow-left isLeft'></div>
+        </div>
+        <div class = 'arrowArea-right isRight'>
+            <div class ='arrow-right isRight'></div>
+        </div>    
+    </div>
+    <!--    底部指定換頁鈕  -->
+    <div class = 'slide-icon'>
+        <icon class = 'currentPage'></icon>
+        <icon></icon>
+        <icon></icon>
+        <icon></icon>
+    </div>
+    <!--    簡報元素，需指定 ID 用於配色及設定初始頁為 current    -->
+    <div class = 'carousel'>
+        <slide id = 'first' class ='comingRaise'>
+            <div class = 'slide-content'>
+                <div class = 'slide-title'>First slide</div>
+                <div class = 'slide-label'>First slide label</div>
+                <div class = 'slide-desc'>Nulla vitae elit libero, a pharetra augue mollis interdum.</div>
+            </div>
+        </slide>
+        <slide id = 'second'>
+            <div class = 'slide-content'>
+                <div class = 'slide-title'>Second slide</div>
+                <div class = 'slide-label'>Second slide label</div>
+                <div class = 'slide-desc'>Nulla vitae elit libero, a pharetra augue mollis interdum.</div>
+            </div>
+        </slide>
+        <slide id = 'third'>
+            <div class = 'slide-content'>
+                <div class = 'slide-title'>Third slide</div>
+                <div class = 'slide-label'>Third slide label</div>
+                <div class = 'slide-desc'>Nulla vitae elit libero, a pharetra augue mollis interdum.</div>
+            </div>
+        </slide>
+        <slide id = 'forth'>
+            <div class = 'slide-content'>
+                <div class = 'slide-title'>Forth slide</div>
+                <div class = 'slide-label'>Forth slide label</div>
+                <div class = 'slide-desc'>Nulla vitae elit libero, a pharetra augue mollis interdum.</div>
+            </div>
+        </slide>
+
+    </div>
+    <script src ='./index.js'></script>
+</body>
+</html>
